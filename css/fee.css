@@ -1,0 +1,479 @@
+body {
+    font-family: "Noto Sans TC", sans-serif !important;
+    color: #221E1F;
+}
+
+.wrap h1{
+	font-size: 48px;
+	line-height: 70px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+.wrap a{
+	text-decoration: none;
+}
+
+.wrap a:hover {
+	color: #fff;
+}
+
+.wrap h2{
+	font-size: 32px;
+	line-height: 46px;
+	font-weight: bold;
+}
+
+.wrap h3{
+	font-size: 24px;
+	line-height: 35px;
+	font-weight: bold;
+}
+
+.wrap ul{
+	padding-left: 0;
+}
+
+.wrap{
+	margin: 0 auto;
+	position: relative;
+}
+
+.btn-top{
+	position: absolute;
+	bottom: 20%;
+	left: 91.288%;
+	min-width: 10%;
+	z-index:999;
+}
+
+.btn-top:hover {
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 50%;
+}
+
+.btn-top img{
+	position: fixed;
+	max-width: 50%;
+}
+
+.btn-top img:hover {
+	opacity: 0.8;
+}
+
+.navbar, .content, .title{
+	max-width: 79.648%;
+	width: 1320px;
+	margin: 0 auto;
+}
+
+.nav-logo {
+	width: 218.06px;
+	height: 40px;
+}
+
+.nav-logo img{
+	height: 40px;
+}
+
+.nav-btn {
+	color: #FFFFFF;
+	background: #FF5D50;
+	padding: 0 32px;
+	opacity: 1;
+}
+
+.nav-btn:hover {
+	opacity: 0.8;
+}
+
+.header {
+	width: 100%;
+	position: relative;
+	height: 470px;
+	margin-bottom: 100px;
+}
+
+.header-bg{
+	background: #F7F9FD;
+	border-radius: 0px 0px 0px 300px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.banner{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.title{
+	padding: 92px 0 180px;
+}
+
+.title p{
+	margin-bottom: 0;
+	color: #221E1F;
+}
+
+.price, .faq{
+	max-width: 83.547%;
+	margin: 0 auto 100px;
+}
+
+.btn-outline{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 26px;
+	color: #56C4C5;
+	background: #FFFFFF;
+	border: 1px solid #56C4C5;
+	opacity:1;
+	border-radius: 27px;
+	padding: 12px 32px;
+	text-align: center;
+}
+
+.btn-outline:hover{
+	opacity:0.8;
+	background: #56C4C5;
+	color: #FFFFFF;
+}
+
+.Current{
+	background: #56C4C5;
+	color: #FFFFFF;
+}
+
+.price h2{
+	margin-bottom: 48px;
+}
+
+.people{
+	display: flex;
+	justify-content:  center;
+	overflow: auto;
+	margin-bottom: 48px;
+}
+
+.people li {
+	padding: 0 3px ;
+	white-space:nowrap;
+}
+
+.price .plan{
+	max-width: 48.844%;
+	box-shadow: 0px 2px 10px #00000014;
+	background: #FFFFFF;
+	border-radius: 12px;
+	padding: 16px 0 32px;
+}
+
+.price .plan h3{
+	padding-bottom: 16px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.plan-body{
+	padding: 0 24px;
+}
+
+.plan-body p{
+	margin:32px auto;
+}
+
+.plan-body .box{
+	margin-bottom: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.box .box-item:nth-child(1), .box .box-item:nth-child(3){
+	width: 42.676%;
+	background: #F5F5F5;
+	border-radius: 12px;
+	padding: 24px 0px;
+}
+
+.box .box-item:nth-child(2){
+	font-size: 29px;
+	line-height: 42px;
+	color: #221E1F;
+}
+
+.box-item p{
+	font-size: 12px;
+	line-height: 17px;
+	padding-bottom: 8px;
+	margin: 0 auto;
+}
+
+.box-item h2{
+	font-size: 32px;
+	line-height: 35px;
+	padding: 0;
+	margin: 0 auto;
+	color: #56C4C5;
+	font-weight: normal;
+	font-family: Comfortaa;
+}
+
+.box-item span{
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: bold;
+	padding-left: 8px;
+}
+
+.box .box-item:nth-child(3) h2{
+	color: #221E1F;
+}
+
+.plan ul{
+	list-style-image: url('https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_check.svg');
+	text-align: left;
+}
+
+.plan ul li {
+	line-height: 24px;
+	margin-top: 16px;
+	margin-left: 28px;
+}
+
+.plan .btn-outline{
+	margin-top: 32px;
+	background: #56C4C5;
+	color: #FFFFFF;
+}
+
+.plan .btn-outline:hover{
+	background: #FFFFFF;
+	color: #56C4C5;
+}
+
+.faq{
+	margin-bottom: 100px;
+}
+
+.faq h2{
+	margin-bottom: 48px;
+}
+
+.faq .accordion-item h2{
+	color: #221E1F;
+	margin-bottom: 0px;
+}
+
+.accordion-flush .accordion-layout  ,
+.faq .accordion-flush .accordion-header .accordion-button{
+	font-size:18px ;
+	line-height: 28px;
+	border-radius: 12px ;
+}
+
+.accordion-button{
+	padding-left: 32px;
+}
+
+.accordion-header  .accordion-button:focus {
+	background: #FFFFFF;
+	color: #56C4C5;
+	font-weight: bold;
+	border-style:none;
+	border-color: #FFFFFF;
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+	
+	color: #56C4C5;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_plus.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/chatTalker_images/icon_minus.svg);
+}
+
+.accordion-layout{
+	background: #FFFFFF;
+	border-radius: 12px ;
+	box-shadow: 0px 2px 10px #00000014;
+	margin-bottom: 16px;
+	border-style:none;
+}
+
+.accordion-body{
+	font-size: 16px;
+	line-height: 32px;
+	color: #747474;
+	padding-left: 32px;
+}
+
+.border-12{
+	border-radius: 12px !important;
+}
+
+.copyright{
+	background: #F5F5F5;
+	color: #221E1F;
+}
+
+/*lg- 寛度最大992時套用樣式*/
+@media (max-width: 992px){
+	.navbar, .content, .title{
+		max-width: 89.333%;
+	}
+
+	.banner{
+		bottom: 0;
+	}
+
+	.people{
+		display: flex;
+		justify-content:  start;
+		overflow: auto;
+	}
+	
+}
+
+/*md*/
+@media (max-width: 768px){
+	.header h1{
+		font-size: 32px;
+		line-height: 46px;
+	}
+
+}
+
+/*sm*/	
+@media (max-width: 576px){
+	.wrap h2{
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	.btn-top img{
+		max-width: 50px;
+	}
+
+	.btn-top {
+		width: 70.422%;
+		left: 82.4%;
+	}
+	
+	.navbar{
+		max-width: 100%;
+		border-bottom: 2px solid #FFD153;
+		padding: 0 20px;
+		background: #FFFFFF;
+	}
+
+	.nav-logo{
+		width: 130.84px;
+		max-width: 100%;
+		height: 30px;
+	}
+
+	.nav-logo img{
+		max-width: 100%;
+
+	}
+
+	.header {
+		height: 567px;
+		margin-bottom: 60px;
+	}
+
+	.title{
+		padding-top: 48px;
+	}
+
+	.btn-outline{
+		font-size: 16px;
+		line-height: 24px;
+		padding: 8px 16px;
+	}
+
+	.plan .btn-outline{
+		margin-top: 35px;
+	}
+
+	.price, .faq{
+		max-width: 100%;
+		margin: 0 auto 36px;
+	}
+
+	.price h2{
+		margin-bottom: 24px;
+	}
+
+	.price .plan{
+		max-width: 100%;
+		padding: 16px 0 24px;
+		margin-bottom: 24px;
+	}
+
+	.plan-body p{
+		margin:24px auto;
+	}
+
+	.box .box-item:nth-child(1), .box .box-item:nth-child(3){
+		width: 45.874%;
+		padding: 16px 0px;
+	}
+
+	.box .box-item:nth-child(2){
+		font-size: 24px;
+		line-height: 35px;
+	}
+
+	.box .box-item h2{
+		font-size: 28px;
+		line-height: 32px;
+		margin: 0 auto;
+	}
+
+	.box .box-item p{
+		margin: 0 auto;
+	}
+
+	.plan-body{
+		padding: 0 16px;
+		word-wrap:break-word;
+		word-break:break-all;
+	}
+
+	.plan-body .box{
+		margin-bottom: 27px;
+	}
+
+	.plan-body ul li {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.faq{
+		margin-bottom: 60px;
+	}
+
+	.faq h2{
+		margin-bottom: 32px;
+	}
+
+	.accordion-button, .accordion-body{
+		padding-left: 16px;
+	}
+}
+
